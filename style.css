@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html ,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 75px;
+    box-shadow: rgb(0,0,0,0.15) 1.95px 1.95px 2.6px;
+}
+
+.flex{
+    display: flex;
+}
+
+.left img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.container{
+    padding: 0 4vw;
+    margin: auto;
+}
+
+.containerHeader{
+    padding: 0 10vw;
+}
+
+nav{
+    padding-top: 6px;
+    font-size: 13px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.search{
+    width: 28vw;
+    padding: 11px 17px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.section1{
+    height: 36vw;
+    margin-bottom: 25px;
+}
+
+.section2{
+    height: 17.5vw;
+    padding: 0 45px;
+}
+
+.section3{
+    padding: 0 5px;
+}
+
+.cupons{
+    width: 90vw;
+}
+
+.homeImg{
+    width: 90vw;
+    margin: 30px 0;
+}
+
+.profile i{
+    padding-left: 12px;
+}
+
+.wishlist i{
+    padding-left: 15px;
+}
+
+.bag i{
+    padding-left: 8px;
+}
+
+.profile p{
+    padding-top: 2px;
+    font-weight: bolder;
+}
+
+.wishlist p{
+    font-weight: bolder;
+}
+
+.bag p{
+    font-weight: bolder;
+}
+
+.section4{
+    padding: 5px;
+}
+
+.section4 img{
+    height: 270px;
+    width: 208px;
+}
+
+.input{
+    background-color: rgb(241, 241, 241);
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.category{
+    width: 98vw;
+}
+
+.section6{
+    margin: 0px 20px;
+}
+
+.section6 img{
+    height: 250px;
+    width: 170px;
+    padding: 8px;
+}
+
+.App-add{
+    width: 92.5vw;
+    padding: 0 3vw;
+    margin: 20px 0;
+}
+
+img{
+    cursor: pointer;
+}
+
+.footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0,0,0 / 24%) 0px 3px 8px;
+}
+
+@media (max-width : 950px){
+    nav ul li{
+        padding: 0 4px;
+        font-size: 10px;
+    } 
+    header{
+        height: 145px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightBox{
+        display: flex;
+        margin: 12px;
+    }
+
+    .section6 img{
+        height: 150px;
+        width: 100px;
+        padding: 1px;
+    }
+
+    .section4 img{
+        height: 150px;
+        width: 100px;
+    }
+
+    .section2 img{
+        width: 70vw;
+    }
+}
+
+@media (max-width : 400px) {
+    .section6 img{
+        height: 70px;
+        width: 50px;
+        padding: 1px;
+    }
+
+    .section4 img{
+        height: 70px;
+        width: 50px;
+    }
+}
